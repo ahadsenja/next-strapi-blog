@@ -3,7 +3,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className="flex items-center h-16 sticky top-0 bg-white">
+    <div className="flex items-center h-16 sticky top-0">
       <div className='container mx-auto flex justify-between'>
         <h1 className='font-medium text-xl hover:text-accent hover:shadow-md'>
           <Link href={'/'}>Next St</Link>
