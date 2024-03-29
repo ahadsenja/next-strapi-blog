@@ -8,6 +8,7 @@ function Navbar() {
         <h1 className='font-medium text-xl hover:text-accent hover:shadow-md'>
           <Link href={'/'}>Next St</Link>
         </h1>
+
         <ul className='flex gap-8'>
           <li className='hover:text-accent'>
             <Link href={'/blog'}>Blog</Link>
@@ -22,6 +23,10 @@ function Navbar() {
             <Link href={'/contact'}>Contact</Link>
           </li>
         </ul>
+
+        <div className='shadow-md'>
+          <input type="text" placeholder='Search' className='p-1 rounded-md' />
+        </div>
       </div>
     </div>
   )
